@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer className="border-t border-border py-10">
-      <div className="mx-auto max-w-7xl px-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-xs text-muted-foreground">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-xs text-muted-foreground">
         <p>
           <span className="text-neon">$</span> echo "Designed &amp; engineered by{" "}
           <span className="text-foreground">Gaurav Mittal</span>"

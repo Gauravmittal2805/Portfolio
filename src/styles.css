@@ -159,6 +159,8 @@
       radial-gradient(circle at 15% 20%, color-mix(in oklch, var(--color-neon), transparent 90%), transparent 40%),
       radial-gradient(circle at 85% 80%, color-mix(in oklch, var(--color-accent), transparent 90%), transparent 40%);
     background-attachment: fixed;
+    overflow-x: hidden;
+    width: 100%;
   }
   ::selection { background: var(--color-neon); color: var(--color-primary-foreground); }
 }

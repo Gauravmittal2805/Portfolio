@@ -12,6 +12,7 @@ const items = [
       "Constructed an ML model that achieved 82% accuracy in predicting student dropout risks.",
     ],
     tags: ["Python", "Machine Learning", "Pandas", "NumPy"],
+    certificate: "/jovaccertificate.pdf",
   }
 ];
 
@@ -41,6 +42,21 @@ export function Experience() {
                   </li>
                 ))}
               </ul>
+
+              {it.certificate && (
+                <div className="mt-4">
+                  <a
+                    href={it.certificate}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 px-3 py-1.5 rounded-md border border-border bg-surface hover:border-neon hover:text-neon transition-colors text-xs font-mono"
+                  >
+                    <span className="h-2 w-2 rounded-full bg-neon animate-pulse" />
+                    view_certificate.pdf
+                  </a>
+                </div>
+              )}
+
               <ul className="mt-4 flex flex-wrap gap-2 font-mono text-[11px]">
                 {it.tags.map((t) => (
                   <li key={t} className="px-2 py-1 rounded border border-border bg-surface text-muted-foreground">

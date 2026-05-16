@@ -43,7 +43,7 @@ export function Contact() {
 
   return (
     <Section id="contact">
-      <SectionHeader index="07." title="Get in touch" subtitle="./connect --user gaurav" />
+      <SectionHeader index="08." title="Get in touch" subtitle="./connect --user gaurav" />
       <div className="grid lg:grid-cols-5 gap-8">
         <div className="lg:col-span-3">
           <div className="rounded-xl border border-border bg-card/70 backdrop-blur overflow-hidden border-glow">
@@ -72,7 +72,6 @@ export function Contact() {
               >
                 <span className="text-neon">$</span>
                 <input
-                  autoFocus
                   value={value}
                   onChange={(e) => setValue(e.target.value)}
                   className="flex-1 bg-transparent outline-none text-foreground placeholder:text-muted-foreground/50"

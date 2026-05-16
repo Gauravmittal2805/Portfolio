@@ -10,6 +10,7 @@ import {
   Menu,
   X,
   Zap,
+  Trophy,
 } from "lucide-react";
 import { ThemeToggle } from "../ThemeToggle";
 
@@ -20,6 +21,7 @@ const links = [
   { id: "experience", label: "Experience", Icon: Briefcase },
   { id: "coding",     label: "Coding",     Icon: Code2 },
   { id: "certs",      label: "Certs",      Icon: Award },
+  { id: "hackathons", label: "Hacks",      Icon: Trophy },
   { id: "contact",    label: "Contact",    Icon: Mail },
 ];
 
@@ -60,7 +62,7 @@ export function Nav() {
             : "bg-transparent"
         }`}
       >
-        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
+        <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 py-3">
 
           {/* ── LOGO ── */}
           <a href="#top" className="nav-logo group" aria-label="Home">
