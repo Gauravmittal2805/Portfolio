@@ -1,5 +1,5 @@
 import { Section, SectionHeader } from "./Section";
-import { Trophy, Users, Calendar, Award } from "lucide-react";
+import { Trophy, Users, Calendar } from "lucide-react";
 
 const hackathons = [
   {
